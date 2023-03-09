@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Exractor</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <label for="txtContent">Add Text Content</label>
+        <textarea id="txtContent"></textarea>
+        <label for="sep">Email Separator</label>
+        <select id="sep">
+            <option value="," selected>,</option>
+            <option value="-" >-</option>
+            <option value=" " >Space</option>
+            <option value="_" >_</option>
+            <option value=";" >;</option>
+            <option value="&#13;&#10;" >New Line</option>
+        </select>
+        <div><button>Get Emails</button></div>
+
+        
+    </div>
+    <div class="result"></div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
