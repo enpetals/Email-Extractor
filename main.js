@@ -3,8 +3,7 @@ const btn = document.querySelector("button")
 const res = document.querySelector(".result")
 const sel = document.querySelector("#sep")
 
-const str = "enpetals4u@gmail.com hello world enpetals4u1@gmail.com enpetals4u2@gmail.com"
-txt1.value = str
+
 
 btn.addEventListener("click",getEmails)
 
